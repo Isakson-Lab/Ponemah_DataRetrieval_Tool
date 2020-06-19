@@ -83,7 +83,7 @@ observeEvent(input$Analyze, {xl_data <- input$Datainput[[4]]
                             
                           }
                           
-                          #####################TIDY THAT SHIZZ UP!#######################################################################
+                          #####################TIDY THAT UP!#######################################################################
                           Tidyavg <- Dayavg
                           
                           indsn  <- QTFrame[inds, 2]
