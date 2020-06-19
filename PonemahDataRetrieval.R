@@ -1,6 +1,6 @@
 
 ui <- fluidPage(
-  titlePanel("Telemeter Dana Analysis Shiny App"),
+  titlePanel("Telemeter Data Analysis Shiny App"),
   
   fileInput("Datainput", "Please select Telemeter Data", multiple = FALSE, accept = ".csv",
             width = NULL, buttonLabel = "Browse...",
