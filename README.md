@@ -3,3 +3,5 @@ A small shiny app which does simple analysis on the output of Ponemah telemeter 
 
 
 Day/night averages are calculated based on 6am-6pm timestamps for each date, by identifying the timestamps for each and averaging the next 720 minutes. This means that some entries may not have the full 12 hours, which will be indicated in the analysis length column of the output. 
+
+The save file should be the file name with _averages, in the directory that the R file is in.
